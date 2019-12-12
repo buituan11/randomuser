@@ -14,7 +14,7 @@ class User extends React.Component {
   render() {
     return (
       <div>
-        <UserList user={this.props.user} />
+        <UserList user={this.props.user.user} />
         <Button type="primary" onClick={() => this.getNew()}>New User</Button>
       </div>
     );
